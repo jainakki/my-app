@@ -29,3 +29,9 @@ error:
       5xx: ERROR
 springdoc:
   pathsToMatch: /**
+jackson:
+  deserialization:
+    fail-on-unknown-properties: false
+
+cache:
+  capacity: 5
